@@ -1,0 +1,389 @@
+[
+  {
+    "id": 1,
+    "name": "Tokyo Ramen House",
+    "description": "Authentic Japanese ramen with rich broth and handmade noodles.",
+    "img": "/public/1.png",
+    "country": "Japanese",
+    "price": "$$",
+    "location": "Bucharest, Victoriei",
+    "hours": {
+      "open": { "hours": 9, "minutes": 0 },
+      "close": { "hours": 22, "minutes": 0 }
+    },
+    "reviews": [
+      {
+        "id": "1-review-1",
+        "userName": "Alice",
+        "content": "Best ramen I've had in a long time!",
+        "rating": 5,
+        "timestamp": "2026-01-18T14:32:00.000Z"
+      },
+      {
+        "id": "1-review-2",
+        "userName": "John Snow",
+        "content": "Great flavors, a bit crowded in the evening.",
+        "rating": 4,
+        "timestamp": "2026-01-19T19:10:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Casa del Forno",
+    "description": "A cozy Italian trattoria serving classic carbonara, bruschetta, olives, and crisp white wine in a warm, rustic setting.",
+    "img": "/public/2.png",
+    "country": "Italian",
+    "price": "$$",
+    "location": "Via del Corso 58, Rome, Italy",
+    "hours": {
+      "open": { "hours": 12, "minutes": 0 },
+      "close": { "hours": 23, "minutes": 0 }
+    },
+    "reviews": [
+      {
+        "id": "2-review-1",
+        "userName": "Emma Romano",
+        "content": "The carbonara was creamy and perfectly balanced—exactly what I hoped for.",
+        "rating": 5,
+        "timestamp": "2026-01-15T18:45:00.000Z"
+      },
+      {
+        "id": "2-review-2",
+        "userName": "Liam Conti",
+        "content": "Great atmosphere and excellent bruschetta. The wine pairing was spot on.",
+        "rating": 4,
+        "timestamp": "2026-01-17T20:12:00.000Z"
+      },
+      {
+        "id": "2-review-3",
+        "userName": "Sophia Bianchi",
+        "content": "Lovely trattoria vibe, friendly staff, and very authentic flavors.",
+        "rating": 5,
+        "timestamp": "2026-01-19T13:05:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "La Mesa Española",
+    "description": "A vibrant Spanish restaurant specializing in traditional paella, fresh seafood, and classic tapas, served in a warm Mediterranean atmosphere.",
+    "img": "/public/3.png",
+    "country": "Spanish",
+    "price": "$$",
+    "location": "Carrer de Mallorca 214, Barcelona, Spain",
+    "hours": {
+      "open": {
+        "hours": 13,
+        "minutes": 0
+      },
+      "close": {
+        "hours": 23,
+        "minutes": 30
+      }
+    },
+    "reviews": [
+      {
+        "id": "3-review-1",
+        "userName": "Isabella Torres",
+        "content": "The seafood paella was absolutely incredible, full of flavor and perfectly cooked.",
+        "rating": 5,
+        "timestamp": "2026-01-20T18:40:00.000Z"
+      },
+      {
+        "id": "3-review-2",
+        "userName": "Lucas Moreno",
+        "content": "Great tapas selection and a very authentic Spanish vibe. Highly recommended.",
+        "rating": 4,
+        "timestamp": "2026-01-21T20:15:00.000Z"
+      },
+      {
+        "id": "3-review-3",
+        "userName": "Sofia Alvarez",
+        "content": "Lovely atmosphere and friendly staff. The paella is perfect for sharing.",
+        "rating": 5,
+        "timestamp": "2026-01-22T14:05:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Blue Olive",
+    "description": "A traditional Greek tavern offering authentic souvlaki, fresh seafood, mezze plates, and local wines with a stunning sunset view.",
+    "img": "/public/4.png",
+    "country": "Greek",
+    "price": "$$",
+    "location": "Oia 847 02, Santorini, Greece",
+    "hours": {
+      "open": {
+        "hours": 13,
+        "minutes": 0
+      },
+      "close": {
+        "hours": 23,
+        "minutes": 30
+      }
+    },
+    "reviews": [
+      {
+        "id": "4-review-1",
+        "userName": "Maria Papadopoulos",
+        "content": "Absolutely amazing food and an unforgettable view. The souvlaki was perfect.",
+        "rating": 5,
+        "timestamp": "2026-01-18T18:20:00.000Z"
+      },
+      {
+        "id": "4-review-2",
+        "userName": "Alexandros Dimitriou",
+        "content": "Very authentic Greek flavors and friendly staff. Highly recommended.",
+        "rating": 5,
+        "timestamp": "2026-01-19T20:05:00.000Z"
+      },
+      {
+        "id": "4-review-3",
+        "userName": "Emily Carter",
+        "content": "Great atmosphere and delicious mezze. Perfect place for a relaxed dinner.",
+        "rating": 4,
+        "timestamp": "2026-01-20T17:40:00.000Z"
+      },
+      {
+        "id": "4-review-4",
+        "userName": "Daniel Foster",
+        "content": "The lamb chops were incredible, and the wine selection was excellent.",
+        "rating": 5,
+        "timestamp": "2026-01-21T21:10:00.000Z"
+      },
+      {
+        "id": "4-review-5",
+        "userName": "Sophia Martinez",
+        "content": "One of the best dining experiences we had in Greece. Stunning location!",
+        "rating": 5,
+        "timestamp": "2026-01-22T19:55:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "La Tavola Italiana",
+    "description": "A traditional Italian restaurant with a cozy interior, featuring a wood-fired pizza oven, rustic decor, and classic homemade Italian dishes.",
+    "img": "/public/5.png",
+    "country": "Italian",
+    "price": "$$",
+    "location": "Via dei Banchi Vecchi 32, Rome, Italy",
+    "hours": {
+      "open": {
+        "hours": 12,
+        "minutes": 0
+      },
+      "close": {
+        "hours": 23,
+        "minutes": 0
+      }
+    },
+    "reviews": [
+      {
+        "id": "5-review-1",
+        "userName": "Anna Rossi",
+        "content": "The atmosphere is incredibly warm and authentic. The pizza from the wood-fired oven was outstanding.",
+        "rating": 5,
+        "timestamp": "2026-01-23T18:30:00.000Z"
+      },
+      {
+        "id": "5-review-2",
+        "userName": "Marco Bianchi",
+        "content": "Classic Italian flavors done right. Great wine selection and friendly staff.",
+        "rating": 5,
+        "timestamp": "2026-01-24T20:10:00.000Z"
+      },
+      {
+        "id": "5-review-3",
+        "userName": "Laura Conti",
+        "content": "Very cozy interior and delicious homemade pasta. Perfect for a relaxed dinner.",
+        "rating": 4,
+        "timestamp": "2026-01-25T19:45:00.000Z"
+      },
+      {
+        "id": "5-review-4",
+        "userName": "Daniel Smith",
+        "content": "Loved the rustic decor and the food was excellent. Slightly busy in the evening.",
+        "rating": 4,
+        "timestamp": "2026-01-26T21:00:00.000Z"
+      },
+      {
+        "id": "5-review-5",
+        "userName": "Sofia Romano",
+        "content": "One of the most authentic Italian dining experiences we've had in Rome.",
+        "rating": 5,
+        "timestamp": "2026-01-27T18:55:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Fire & Sangria",
+    "description": "A lively Spanish tapas restaurant offering traditional small plates, jamón ibérico, patatas bravas, and house-made sangria in a warm, festive atmosphere.",
+    "img": "/public/6.png",
+    "country": "Spanish",
+    "price": "$$",
+    "location": "Carrer de Blai 28, Barcelona, Spain",
+    "hours": {
+      "open": {
+        "hours": 13,
+        "minutes": 0
+      },
+      "close": {
+        "hours": 23,
+        "minutes": 30
+      }
+    },
+    "reviews": [
+      {
+        "id": "6-review-1",
+        "userName": "Carlos Fernandez",
+        "content": "Amazing tapas and a great atmosphere. The sangria was excellent.",
+        "rating": 5,
+        "timestamp": "2026-01-18T18:10:00.000Z"
+      },
+      {
+        "id": "6-review-2",
+        "userName": "Elena Martinez",
+        "content": "Very authentic flavors and a lively vibe. Perfect place to share dishes.",
+        "rating": 5,
+        "timestamp": "2026-01-19T20:25:00.000Z"
+      },
+      {
+        "id": "6-review-3",
+        "userName": "James Wilson",
+        "content": "Great food and friendly staff, though it can get crowded in the evening.",
+        "rating": 4,
+        "timestamp": "2026-01-20T19:40:00.000Z"
+      },
+      {
+        "id": "6-review-4",
+        "userName": "Sofia Lopez",
+        "content": "Loved the interior design and the variety of tapas on the menu.",
+        "rating": 5,
+        "timestamp": "2025-01-21T21:05:00.000Z"
+      },
+      {
+        "id": "6-review-5",
+        "userName": "Daniel Brown",
+        "content": "One of the best tapas places we've tried in Barcelona.",
+        "rating": 5,
+        "timestamp": "2025-01-22T18:55:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Il Forno Vivo",
+    "description": "A cozy Italian trattoria with a rustic interior, featuring a glowing wood-fired oven, classic pizzas, fresh antipasti, and regional Italian wines.",
+    "img": "/public/7.png",
+    "country": "Italian",
+    "price": "$$",
+    "location": "Via della Lungaretta 15, Rome, Italy",
+    "hours": {
+      "open": {
+        "hours": 12,
+        "minutes": 0
+      },
+      "close": {
+        "hours": 23,
+        "minutes": 0
+      }
+    },
+    "reviews": [
+      {
+        "id": "7-review-1",
+        "userName": "Giulia Moretti",
+        "content": "Wonderful atmosphere and one of the best wood-fired pizzas I’ve had in Rome.",
+        "rating": 5,
+        "timestamp": "2026-01-20T18:15:00.000Z"
+      },
+      {
+        "id": "7-review-2",
+        "userName": "Thomas Reed",
+        "content": "Cozy interior, great wine, and very friendly staff. Highly recommended.",
+        "rating": 5,
+        "timestamp": "2026-01-21T20:05:00.000Z"
+      },
+      {
+        "id": "7-review-3",
+        "userName": "Alessia Romano",
+        "content": "Authentic flavors and generous portions. The antipasti platter was excellent.",
+        "rating": 4,
+        "timestamp": "2026-01-22T19:30:00.000Z"
+      },
+      {
+        "id": "7-review-4",
+        "userName": "Michael Turner",
+        "content": "Loved the rustic vibe and the quality of ingredients. Gets busy in the evening.",
+        "rating": 4,
+        "timestamp": "2026-01-23T21:10:00.000Z"
+      },
+      {
+        "id": "7-review-5",
+        "userName": "Sara Bianchi",
+        "content": "A perfect place for a relaxed Italian dinner with friends. Will definitely return.",
+        "rating": 5,
+        "timestamp": "2026-01-24T18:50:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Spice Lotus",
+    "description": "An Asian fusion restaurant specializing in bold, spicy flavors, with signature shrimp stir-fry dishes prepared fresh to order.",
+    "img": "/public/8.png",
+    "country": "Japanese",
+    "price": "$$",
+    "location": "Sukhumvit Road 21, Bangkok, Thailand",
+    "hours": {
+      "open": {
+        "hours": 11,
+        "minutes": 30
+      },
+      "close": {
+        "hours": 22,
+        "minutes": 30
+      }
+    },
+    "reviews": [
+      {
+        "id": "8-review-1",
+        "userName": "Nina Collins",
+        "content": "The spicy shrimp dish was incredible—perfect balance of heat and flavor.",
+        "rating": 5,
+        "timestamp": "2026-01-22T18:20:00.000Z"
+      },
+      {
+        "id": "8-review-2",
+        "userName": "Arun Patel",
+        "content": "Fresh ingredients and beautifully presented. One of the best shrimp stir-fries I’ve had.",
+        "rating": 5,
+        "timestamp": "2026-01-23T19:10:00.000Z"
+      },
+      {
+        "id": "8-review-3",
+        "userName": "Laura Kim",
+        "content": "Loved the sauce and the spice level. Would definitely order this again.",
+        "rating": 4,
+        "timestamp": "2026-01-24T20:05:00.000Z"
+      },
+      {
+        "id": "8-review-4",
+        "userName": "Michael Wong",
+        "content": "Great dish, very aromatic and well cooked. Slightly spicy but in a good way.",
+        "rating": 4,
+        "timestamp": "2026-01-25T18:45:00.000Z"
+      },
+      {
+        "id": "8-review-5",
+        "userName": "Sofia Ramirez",
+        "content": "Absolutely delicious shrimp—juicy, spicy, and full of flavor.",
+        "rating": 5,
+        "timestamp": "2026-01-26T19:30:00.000Z"
+      }
+    ]
+  }
+]
