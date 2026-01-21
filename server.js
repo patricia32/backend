@@ -55,7 +55,7 @@ app.get("/restaurants", async (req, res) => {
   }
 });
 
-app.get("/restaurant/:id", async (req, res) => {
+app.get("/restaurants/:id", async (req, res) => {
   try {
     const data = await readProductData();
     const needle = data.find((r) => r.id === Number(req.params.id));
